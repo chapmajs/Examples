@@ -11,4 +11,4 @@ This Python script will write a bitmapped test pattern to the Sabernetics Mini-I
 injector.py and injectable.py
 -----------------------------
 
-Demonstrate dependency injection with Python. Hi ragechin!
+Demonstrate dependency injection with Python 2. Hi ragechin!

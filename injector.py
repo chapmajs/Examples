@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Demonstrating dependency injection on a module in Python. We import our
+# Demonstrating dependency injection on a module in Python 2. We import our
 # module, `injectable.py`, and call a few methods on it. The dependency
 # that is passed in is stored locally in the module and is called by methods
 # local to the module.
