@@ -1,0 +1,4 @@
+description "Hurricane Electric IPv6 tunnel"
+!ifconfig gif0 tunnel $(ifconfig egress | awk '$1 ~ /^inet$/{print $2}') 209.51.161.14
+!ifconfig gif0 inet6 alias 2001:db8:1::2 2001:db8:1::1 prefixlen 128
+!route -n add -inet6 default 2001:db8:1::1
