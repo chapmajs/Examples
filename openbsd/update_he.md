@@ -1,6 +1,8 @@
 HE.net IPv6 Tunnel Update
 -------------------------
 
+More detailed writeup: [http://www.glitchwrks.com/2015/11/04/openbsd-and-hurricane-electric](http://www.glitchwrks.com/2015/11/04/openbsd-and-hurricane-electric)
+
 Here's my solution to keeping my HE.net tunnel up-to-date with a dynamic WAN IP. `hostname.gif0` dynamically picks the egress interface's IPv4 address as the local end of the tunnel. `update_he.sh` is intended to run periodically to keep the tunnel up-to-date.
 
 Configuring update_he.sh
