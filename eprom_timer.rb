@@ -6,6 +6,8 @@
 # Wire optocoupler controlled relay board to pins 4 and 7 (RTS and GND) on a
 # DB-25, or 7 and 5 on a DB-9.
 
+# Requires `serialport` and `ruby-progressbar` gems.
+
 # Copyright (c) 2016-03-21 The Glitch Works
 # http://www.glitchwrks.com/
 
