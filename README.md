@@ -19,3 +19,8 @@ ssltest.py and hb_honeypot.pl
 `ssltest.py` is a modified version of a modified version of the PoC for CVE-2014-0160 'Heartbleed' by Jared Stafford (jspenguin@jspenguin.org). Scans single hosts, doesn't do the hex dump.
 
 `hb_honeypot.pl` listens on TCP port 443 and pukes bogus SSL messages into the socket while looking for something like part of the HELO from Jared's demo. It logs IPs to the console and returns a vulnerable-looking heartbeat response.
+
+eprom_timer.rb
+--------------
+
+`eprom_timer.rb` is a quick little script to control one of my [relay switched outlets](http://www.glitchwrks.com/2013/02/28/relay-board) using the handshake lines on a USB -> RS-232 adapter. Requires the `serialport` and `ruby-progressbar` gems.
