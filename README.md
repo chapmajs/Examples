@@ -23,4 +23,4 @@ ssltest.py and hb_honeypot.pl
 eprom_timer.rb
 --------------
 
-`eprom_timer.rb` is a quick little script to control one of my [relay switched outlets](http://www.glitchwrks.com/2013/02/28/relay-board) using the handshake lines on a USB -> RS-232 adapter. Requires the `serialport` and `ruby-progressbar` gems.
+`eprom_timer.rb` is a quick little script to control one of my [relay switched outlets](http://www.glitchwrks.com/2013/02/28/relay-board) using the handshake lines on a USB -> RS-232 adapter. Requires the `serialport` and `ruby-progressbar` gems. Read more [here](http://www.glitchwrks.com/2016/03/21/eprom-timer)
